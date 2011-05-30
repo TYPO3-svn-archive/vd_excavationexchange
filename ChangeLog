@@ -1,0 +1,18 @@
+(add new changes on top of this file)
+
+11-05-30 Jean-Luc Thirot  <jean-luc.thirot@vd.ch>  
+	* v 0.8.0 Cleanup for forge
+09-09-30 Jean-Luc Thirot  <jean-luc.thirot@vd.ch>  
+	* v 0.7.0 Change labels and icon for the tables
+09-09-30 Jean-Luc Thirot  <jean-luc.thirot@vd.ch>  
+	* v 0.4.5 correction du mot repeat dans le formulaire de l'utilisateur
+09-09-29 Jean-Luc Thirot  <jean-luc.thirot@vd.ch>  
+	* v 0.4.4 Change Layout for VD09
+09-07-19 Jean-Luc Thirot  <jean-luc.thirot@vd.ch>  
+	* v 0.3.0 First release for users tests
+	
+09-06-19 Jean-Luc Thirot  <jean-luc.thirot@vd.ch>
+	* v 0.2.1 Add administration page
+	
+09-05-04 Jean-Luc Thirot  <jean-luc.thirot@vd.ch>
+	* Initial release

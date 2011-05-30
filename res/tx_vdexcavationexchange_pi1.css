@@ -1,0 +1,532 @@
+/* <![CDATA[ */
+
+/**************************************************
+GENERAL
+**************************************************/
+
+
+
+/***************************************************************
+* WARNING
+***************************************************************/
+div.tx-vdexcavationexchange-pi1  div.warnings {
+	color:#FF0000; font-weight:bold;
+	padding-top: 2px;
+	padding-bottom:2px;
+}
+.tx-vdexcavationexchange-pi1  .error{
+	clear:both;
+	font-weight:bold;
+	display:block;
+	margin: 0px 0px 2px 0px;
+	color:#C34A2C;
+	padding-top: 2px;
+	padding-bottom: 2px;	
+}
+.redstar{
+	color:#ff0000;
+	font-weight:bold;
+	font-size:1.3em;
+	margin: 0px 4px 0px 4px;
+}
+.actionLink{
+	font-weight:bold;
+	font-size:1.3em;
+	cursor: hand;
+	/*
+	background-color: #d3d3d3;
+	padding: 3px 6px 3px 6px;
+	border-color: #6e6e6e;
+	border-style:solid;
+	border-width:1px;
+	*/
+	
+}
+
+.addLot{
+	display: none;
+}
+/***************************************************************
+* FORM
+***************************************************************/
+div.tx-vdexcavationexchange-pi1  form{
+	font-size:1.1em;
+}
+div.tx-vdexcavationexchange-pi1  fieldset{
+	clear:both;
+	background-color:#f2f2f2;
+}
+div.tx-vdexcavationexchange-pi1  legend{
+	font-size:1.2em;
+	color:black; /* pour ie6 */
+}
+
+/**************************************************
+FILTER FORM
+**************************************************/
+div.tx-vdexcavationexchange-pi1 form.filter  fieldset{
+	
+	background-image:url(/fileadmin/css/mailformplus/cmxform-fieldset.gif);
+	background-position:left bottom;
+	background-repeat:repeat-x;
+	border-color:#B2CC2B -moz-use-text-color -moz-use-text-color;
+	border-style:solid none none;
+	border-width:1px medium medium;	
+	padding-top:8px;
+	width:98%;
+	
+}
+div.tx-vdexcavationexchange-pi1 form.filter  DIV.filter-bloc-A{
+	float:left;
+	margin-left:4px;
+	width:98%;
+	
+}
+.tx-vdexcavationexchange-pi1 form.filter  .error{
+	clear:both;
+
+}
+
+div.tx-vdexcavationexchange-pi1 form.filter  div.ligne {
+	clear:left;
+	float: left;
+	display: inline;
+	margin: 2px 0px 2px 0px;
+	width:100%;
+}
+div.tx-vdexcavationexchange-pi1 form.filter  div.ligne label {
+	/*position: relative;*/
+	clear: left;
+	float: left;
+	width: 50%;
+	margin: 0px 0px 0px 0px;
+}
+
+
+div.tx-vdexcavationexchange-pi1 form.filter  div  input {
+
+	background-image:url(/fileadmin/css/mailformplus/cmxform-input-bckgrnd.gif);
+	background-position:center top;
+	background-repeat:repeat-x;
+	border:1px solid #BCBCBC;
+}
+div.tx-vdexcavationexchange-pi1 form.filter  select {
+	margin:0px 0px 1px 0px;
+}
+div.tx-vdexcavationexchange-pi1 form.filter  div.submit-bloc  {
+	clear:both;
+	display:block;
+	text-align: center;
+}
+div.tx-vdexcavationexchange-pi1 form.filter  input.submit, div.tx-vdexcavationexchange-pi1 form.filter   input.cancel  {
+	margin:3px;
+	margin-top:10px;
+	padding:2px;
+}
+/***************************************************************
+* RESPONSE FORM
+***************************************************************/
+div.responseform {
+	clear:both;
+	width:90%;
+}
+div.descriptionlot {
+	background-color:#f2f2f2;
+	clear:both;
+	float:left;
+	width:100%;
+	margin:0px 0px 10px 0px;
+	padding: 4px 0px 4px 2px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #cccccc;
+}
+
+.responseform  .error {
+	margin-left:8px;
+}
+div.responseform form{
+	clear:both;
+	padding: 10px 0px 10px 0px;
+}
+
+div.responseform fieldset{
+	background-color:white; /* pour ie6 */
+	background-image:url(/fileadmin/css/mailformplus/cmxform-fieldset.gif);
+	background-position:left bottom;
+	background-repeat:repeat-x;
+	border-color:#B2CC2B -moz-use-text-color -moz-use-text-color;
+	border-style:solid none none;
+	border-width:1px medium medium;	
+	padding-top:8px;
+
+}
+div.responseform  fieldset legend{
+	background-color : white;
+}
+div.responseform div.submit-bloc  {
+	clear:both;
+	display:block;
+	text-align: center;
+	padding: 8px 0px 10px 0px;
+}
+div.responseform  .label  {
+	clear:both;
+	float:left;
+	width: 25%;
+	margin:2px 0px 2px 4px;
+	text-align:right;
+}
+div.responseform  .value {
+	float: left;
+	width: 65%;
+	margin:2px 0px 2px 8px;
+}
+div.descriptionlot  .label  {
+	clear:both;
+	float:left;
+	width: 35%;
+	margin:2px 0px 2px 0px;
+}
+div.descriptionlot  .value {
+	float: left;
+	margin:2px 0px 2px 12px;
+	width: 60%;
+}
+
+div.responseform   input {
+
+	background-image:url(/fileadmin/css/mailformplus/cmxform-input-bckgrnd.gif);
+	background-position:center top;
+	background-repeat:repeat-x;
+	border:1px solid #BCBCBC;
+
+}
+/* CAPTCHA */
+div.tx-your-extension-id-pi1-captcha{
+	padding: 4px 100px 4px 180px ;
+	clear:both;
+	}
+div.tx-your-extension-id-pi1-captcha input{
+	padding: 2px;
+	clear:both;
+}
+
+/***************************************************************
+* OFFER FORM
+***************************************************************/
+div.tx-vdexcavationexchange-pi1  fieldset{
+	clear:both;
+	display: block;
+	margin-top:20px;
+	padding-bottom:8px;
+	padding-top:3px;
+}
+div.tx-vdexcavationexchange-pi1  fieldset legend{
+
+}
+
+div.tx-vdexcavationexchange-pi1 form.offerSearch h3{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #444444;
+	color: #444444;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.1em;
+	clear:both;
+	margin:6px 0px 2px 0px;
+}
+div.tx-vdexcavationexchange-pi1 form.offerSearch h4{
+	margin:6px 0px 2px 0px;
+}
+div.tx-vdexcavationexchange-pi1 form.offerSearch  div.retour {
+	clear:both;
+	float:left;
+	display: block;
+	margin:4px 0px 2px 0px;
+}
+
+div.tx-vdexcavationexchange-pi1 form.offerSearch  div.ligne {
+	width:100%;
+	float:left;
+	padding:3px 0px 3px 10px;
+}
+div.tx-vdexcavationexchange-pi1 form.offerSearch  div.ligne .label {
+	float: left;
+	clear:both;
+	width: 35%;
+	margin:4px 0px 0px 0px;
+	color:black;
+}
+
+div.tx-vdexcavationexchange-pi1 form.offerSearch  div.ligne .field {
+	float: left;
+	margin:0px 0px 0px 0px;
+}
+div.tx-vdexcavationexchange-pi1 form.offerSearch  select {
+	margin:0px 0px 1px 0px;
+}
+div.tx-vdexcavationexchange-pi1 form.offerSearch  input {
+
+	margin: 0px 0px 1px 0px;
+}
+div.tx-vdexcavationexchange-pi1 form.offerSearch  span.bt_archiver {
+	text-align: right;
+	margin-left:406px;
+	/* margin:2px 0px 4px 4px; */
+}
+
+div.tx-vdexcavationexchange-pi1 form.offerSearch  div.column1 {
+	float:left;
+	display:inline;
+	width: 65%;
+	margin:2px 0px 7px 0px;
+}
+div.tx-vdexcavationexchange-pi1 form.offerSearch  div.column3 {
+	float:left;
+	margin:0px 0px 7px 20px;
+}
+div.tx-vdexcavationexchange-pi1 form.offerSearch  div.submit-bloc  {
+	clear:both;
+	display:block;
+	text-align: center;
+}
+div.tx-vdexcavationexchange-pi1 form.offerSearch  input.submit, div.tx-vdexcavationexchange-pi1 form.offerSearch   input.cancel  {
+	padding: 2px; 
+	margin:3px;
+	margin-top:10px;
+	text-align: center;
+}
+
+.tx-vdexcavationexchange-pi1 form.offerSearch  .error{
+	clear:left;
+	display:block;
+	font-size:0.9em;
+}
+/**************************************************
+Pagination
+**************************************************/
+div.tx-vdexcavationexchange-pi1  .pagination-stats  {
+	float:left;
+	width:35%;
+	margin:2px;
+	padding:2px;
+	font-weight:800;
+	/*background-color:#f2f2f2;*/
+	margin-top:14px;
+	margin-bottom:10px;
+}
+div.tx-vdexcavationexchange-pi1  .pagination-nav  {
+	width:60%;
+	float:right;
+	padding:2px;
+	margin:2px;
+	margin-right:5px;
+	text-align:right;
+	/*background-color:#f2f2f2;*/
+	margin-top:14px;
+	margin-bottom:10px;
+
+}
+div.tx-vdexcavationexchange-pi1  .pagination-nav  .gotopage {
+	letter-spacing: 4px;
+}
+div.tx-vdexcavationexchange-pi1  .pagination-nav  .currentpage {
+	letter-spacing: 4px;
+	font-weight:900;
+}
+
+/**************************************************
+TABLE
+**************************************************/
+#colCenter_contentElement table {
+    /* width: 722px; */
+		width:98%;
+}
+
+
+table.contenttable {
+	clear:left;	
+}
+table.contenttable  th {
+}
+table.contenttable  th.titre {
+}
+table.contenttable  th a.ASC_activ {
+	color: #888; 
+}
+table.contenttable  th a.DESC_activ {
+	color: #888; 
+}
+table.contenttable  th a.inactiv {
+	color: #888; 
+}
+
+
+
+
+table.contenttable  th span.ASC_activ {
+	background-repeat:no-repeat;
+	background-position:left;
+	background-image:url('../../css/vdexcavationexchange/arrowdown.gif');
+}
+table.contenttable  th span.DESC_activ {
+	background-repeat:no-repeat;
+	background-position:left;
+	background-image:url('../../css/vdexcavationexchange/arrowup.gif');
+}
+table.contenttable  th span.inactiv {
+	background-repeat:no-repeat;
+	background-position:left;
+	background-image:url('../../css/vdexcavationexchange/arrownone.gif');
+}
+
+table.contenttable  tr.odd {
+	background-color: #fafafa;
+}
+table.contenttable  tr.even {
+	background-color: #ffffff; 
+}
+
+table.contenttable  td {
+	padding: 4px;
+	vertical-align: top;
+	font-size:1em;
+	border-bottom:1px solid #c4c4c4;
+}
+table.contenttable  td.lot, th.lot{
+	width: 15%;
+} 
+table.contenttable  td.descr, th.mat{
+	width: 58%;
+} 
+table.contenttable  td.dispo, th.dispo{
+	width: 25%;
+} 
+table.contenttable  div.repondre {
+	margin:20px 0px 0px 0px;
+}
+
+/**************************************************
+LOT
+**************************************************/
+
+div.lot  {
+	clear:left;
+	/*float:left;*/
+	background: #f1f1f1;
+	padding:6px 6px 12px 8px;
+	width:96%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #c4c4c4;
+	border-bottom-width:0px;
+	border-bottom-color: #cccccc;
+	margin-left:0px;
+	}
+div.lot div.ligne, div.response div.ligne {
+	clear:both;
+	padding: 0.2em 0 0.7em 0;
+}
+
+div.lot  .label  {
+	float: left;
+	width: 50%;
+
+}
+
+div.lot  .value {
+	float:left;
+
+	width: 50%;
+}
+div.lot  .label-titel  {
+	float:left;
+	width: 40%;
+	margin:10px 0px 6px 0px;
+	font-weight:700;
+}  
+div.action {
+	display:inline;
+	float: right;
+	font-weight:700;
+	margin:10px 16px 2px 4px;
+	/* background: green; */
+}
+
+div.response    {
+	width: 96%;
+	/*clear:both;*/
+	float:left;
+	background-color: #ffffff;
+	margin-bottom:10px;
+	border-top-width:0px;
+	padding:6px 6px 2px 8px;
+	border:1px solid #c4c4c4;
+}
+
+div.response  .label-titel  {
+	/*clear:both;
+	float:left;*/
+	width: 52%;
+	margin:10px 0px 0px 0px;
+	font-weight:700;
+} 
+div.response-break   {
+	/*clear:both;*/
+}
+
+div.response  .respA  {
+	float:left;
+	width: 48%;
+	margin-bottom: 10px;
+}
+div.response  .respB  {
+	float:left;
+	width: 50%;
+	margin-bottom: 10px;
+	padding-top:12px;
+	margin-left:5px;
+}
+div.response  .label  {
+	/*clear:both;*/
+}
+div.response  .value {
+
+	/* background: purple; */
+}
+div.respA  .label  {
+	
+}
+	/***************************************************************
+	* ELEMENTS DU MENU
+	***************************************************************/
+
+	.retour10	{clear:both; height:10px}	
+	
+	/***************************************************************
+	* ELEMENTS DU QUESTIONNAIRE
+	***************************************************************/
+
+	
+
+	/***************************************************************
+	* BASE ELEMENTS- SECTION 2
+	*
+	* Template classes
+	***************************************************************/
+	
+	/* Miscellaneous */
+	.noBorder {
+		border: none;
+	}
+	.strong {
+		font-weight: bold;
+	}
+	.accessKey {
+		text-decoration: underline;
+	}
+	
+
+/* ]]> */

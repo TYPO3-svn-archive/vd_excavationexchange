@@ -1,0 +1,145 @@
+<T3DataStructure>
+  <meta>
+    <langDisable>1</langDisable>
+    <!--  <langChildren>0</langChildren>!-->
+  </meta>
+  <sheets>
+    <sDEF>
+      <ROOT>
+        <TCEforms>
+          <sheetTitle>Bourse aux materiaux</sheetTitle>
+          <cshFile></cshFile>
+        </TCEforms>
+        <type>array</type>
+        <el>
+          <view_type>
+            <TCEforms>
+              <exclude>1</exclude>
+              <label>Type de page a afficher</label>
+              <config>
+                <type>select</type>
+                <items type="array">
+                  <numIndex index="0" type="array">
+                    <numIndex index="0">Page offre</numIndex>
+                    <numIndex index="1">'Offer'</numIndex>
+                  </numIndex>         
+                  <numIndex index="1" type="array">
+                    <numIndex index="0">Page recherche</numIndex>
+                    <numIndex index="1">'Search'</numIndex>
+                  </numIndex>
+                  <numIndex index="2" type="array">
+                    <numIndex index="0">Page réponse</numIndex>
+                    <numIndex index="1">'Response'</numIndex>
+                  </numIndex>
+                  <numIndex index="3" type="array">
+                    <numIndex index="0">Mes annonces</numIndex>
+                    <numIndex index="1">'ListMyAds'</numIndex>
+                  </numIndex>
+                  <numIndex index="4" type="array">
+                    <numIndex index="0">Les offres</numIndex>
+                    <numIndex index="1">'ListOffers'</numIndex>
+                  </numIndex>                    
+                  <numIndex index="5" type="array">
+                    <numIndex index="0">Lot</numIndex>
+                    <numIndex index="1">'Lot'</numIndex>
+                  </numIndex>
+                  <numIndex index="6" type="array">
+                    <numIndex index="0">Les demandes</numIndex>
+                    <numIndex index="1">'ListSearchAds'</numIndex>
+                  </numIndex>                   
+                  <numIndex index="7" type="array">
+                    <numIndex index="0">Page admin</numIndex>
+                    <numIndex index="1">'ListAdsAdmin'</numIndex>
+                  </numIndex>
+                </items>                  
+                
+                <minitems>1</minitems>
+                <maxitems>1</maxitems>
+                <size>1</size>
+              </config>
+            </TCEforms>
+          </view_type>
+          <action_type>
+            <TCEforms>
+              <exclude>1</exclude>
+              <label>Action sur la page</label>
+              <config>
+                <type>select</type>
+                <items type="array">
+                  <numIndex index="0" type="array">
+                    <numIndex index="0">create</numIndex>
+                    <numIndex index="1">'create'</numIndex>
+                  </numIndex>         
+                  <numIndex index="1" type="array">
+                    <numIndex index="0">read</numIndex>
+                    <numIndex index="1">'read'</numIndex>
+                  </numIndex>
+                  <numIndex index="2" type="array">
+                    <numIndex index="0">update</numIndex>
+                    <numIndex index="1">'update'</numIndex>
+                  </numIndex>
+                  <numIndex index="3" type="array">
+                    <numIndex index="0">delete</numIndex>
+                    <numIndex index="1">'delete'</numIndex>
+                  </numIndex>
+                  <numIndex index="4" type="array">
+                    <numIndex index="0">readArchives</numIndex>
+                    <numIndex index="1">'readArchives'</numIndex>
+                  </numIndex>
+                  <numIndex index="5" type="array">
+                    <numIndex index="0">read Offers</numIndex>
+                    <numIndex index="1">'readOffers'</numIndex>
+                  </numIndex>
+                  <numIndex index="6" type="array">
+                    <numIndex index="0">read Offers Archives</numIndex>
+                    <numIndex index="1">'readOffersArchives'</numIndex>
+                  </numIndex>                  
+                  <numIndex index="7" type="array">
+                    <numIndex index="0">read Demandes</numIndex>
+                    <numIndex index="1">'readSearchs'</numIndex>
+                  </numIndex>
+                  <numIndex index="8" type="array">
+                    <numIndex index="0">read Demandes Archives</numIndex>
+                    <numIndex index="1">'readSearchsArchives'</numIndex>
+                  </numIndex>    
+                </items>
+                <minitems>1</minitems>
+                <maxitems>1</maxitems>
+                <size>1</size>
+              </config>
+            </TCEforms>
+          </action_type>          
+          
+          <templateHTML>
+            <TCEforms>
+              <label>Choix d'un template (to do)</label>
+              <config>
+                <type>group</type>
+                <internal_type>file</internal_type>
+                <allowed>html,htm,tmpl</allowed>
+                <maxitems>1</maxitems>
+                <size>1</size>
+              </config>
+            </TCEforms>
+          </templateHTML>
+
+          <CSSFile>
+            <TCEforms>
+              <label>Choix d'un css (to do)</label>
+              <config>
+                <type>group</type>
+                <internal_type>file</internal_type>
+                <allowed>css</allowed>
+                <maxitems>1</maxitems>
+                <size>1</size>
+              </config>
+            </TCEforms>
+          </CSSFile>            
+
+
+        </el>
+      </ROOT>
+    </sDEF>
+    
+  </sheets>
+</T3DataStructure>

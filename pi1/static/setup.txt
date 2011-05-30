@@ -1,0 +1,90 @@
+plugin.tx_vdexcavationexchange_pi1 = USER_INT
+plugin.tx_vdexcavationexchange_pi1 {
+  
+  pagesRedirect{
+    // general
+    homePage = 21094
+    loginPage = 21074
+    createAccount= 21102
+
+    // view
+    offresListPage     = 21073
+    searchListPage     = 21106
+    
+    responseLotPage    = 21096
+    responseLotSaved   = 21099
+    responseLotSavedEmailError = 21099
+    responseSearchPage    = 21096
+    responseSearchSaved   = 21099
+    responseSearchSavedEmailError = 21099
+    // edit
+    myAds = 21094
+    myArchives = 21100
+    
+    myAdsSearch = 21108
+    myArchivesSearch = 21109
+    // admin
+    adminPage=21113
+    
+    // 
+    offerCreate = 21072
+    #offerRead = 21073
+    offerUpdate = 21095
+
+    // lotCreate = 21095
+    // lotUpdate = 21095
+    
+    searchCreate = 21107
+    #searchRead = 21073
+    searchUpdate = 21110
+    
+  }
+  // FE groups access unique value
+  FE_groupAdmin = 39
+  FE_groupActiv = 38
+  FE_groupPending =  37
+
+  pagi_recordsPage = 2
+  pagi_pagesRange = 5
+  pagi_displayTop = 1
+  pagi_displayStats = 1
+                        
+  
+  # the email management is inspired from ke_smallads
+  sendEmail= 0
+  # Notify the Administrator on created ad?
+  notifyEmailAdminOnCreated = 1
+  notifyEmailAdminOnCreated {
+    subject = La bourse aux matériaux %s
+    toEmail = jean-luc@thirot.com
+    body = Une personne à répondu à une annonce. |Lot No: %s |Contacte: %s |Téléphone: %s |Email: %s|||Voir les annonces: %s
+    fromName = La bourse aux matériaux
+    fromEmail = noreply@vd.ch
+  }
+  # Notify the Editor on response ?
+  notifyEmailEditorOnResponse = 1
+  notifyEmailEditorOnResponse {
+    subject = La bourse aux matériaux %s
+    toEmail =
+    body = Une personne à répondu à votre annonce. |Lot No: %s |Contacte: %s |Téléphone: %s |Email: %s|||Voir les annonces: %s
+    fromName = La bourse aux matériaux
+    fromEmail = noreply@vd.ch
+  }
+  # Send an Email to the ad submitter when he adds a response ?
+  notifyEmailUserOnResponse = 1
+  notifyEmailUserOnResponse {
+    subject = La bourse aux matériaux %s
+    body = Bonjour vous avez répondu à l'annonce suivante.|Lot No: %s |||Voir les annonces: %s
+    fromName = La bourse aux matériaux
+    fromEmail = noreply@vd.ch
+  }
+  
+}
+# Calendar
+plugin.tx_rlmpdateselectlib.calConf.stylesheet = EXT:vd_excavationexchange/res/calendar-system.css
+
+# check for captcha
+plugin.tx_srfeuserregister_pi1 {
+  create.evalValues.captcha_response = freecap
+  create.fields = title, first_name, last_name, gender, password, hidden, static_info_country,zone,email, date_of_birth, module_sys_dmail_category, image, module_sys_dmail_html, captcha_response
+}
